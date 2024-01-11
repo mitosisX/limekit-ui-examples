@@ -1,0 +1,1 @@
+{"project":{"description":"Example showing date and time", "url":"", "lua_require":"", "author":"Omega Msiska", "version":"1.0", "copyright":"Limekit by Take bytes", "name":"Date Time", "email":"", "routes":{"single":{"app_icon":"images::app.png"}, "group":{}}}}

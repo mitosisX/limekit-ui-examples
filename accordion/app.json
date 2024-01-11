@@ -1,0 +1,1 @@
+{"project":{"description":"Example showing collapsibles", "url":"", "lua_require":"", "copyright":"Limekit by Take bytes", "version":"1.0", "routes":{"single":{"app_icon":"images::app.png"}, "group":{}}, "author":"Omega Msiska", "email":"", "name":"Accordion"}}

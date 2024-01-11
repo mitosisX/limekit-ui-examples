@@ -1,0 +1,1 @@
+{"project":{"description":"Example showing a calculator", "url":"", "lua_require":"", "copyright":"Limekit by Take bytes", "version":"1.0", "author":"Omega Msiska", "routes":{"single":{"app_icon":"images::app.png"}}, "email":"", "name":"Calculator"}}

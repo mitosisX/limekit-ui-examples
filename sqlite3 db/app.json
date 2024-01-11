@@ -1,0 +1,18 @@
+{
+  "project": {
+    "name": "Button Group",
+    "author": "Limekit",
+    "description": "Brief project description",
+    "copyright": "© 2023 Limekit. All Rights Reserved",
+    "version": "1.0.1",
+    "email": "limekit@lua.gui",
+    "url": "",
+    "routes": {
+      "single": {
+        "app_icon": "images::app.png"
+      },
+      "group": {}
+    },
+    "lua_require": ""
+  }
+}

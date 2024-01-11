@@ -1,0 +1,1 @@
+{"project":{"version":"1.0", "author":"Omega Msiska", "copyright":"Limekit by Take bytes", "url":"", "description":"Example showing tables part 2", "lua_require":"", "name":"Table 2", "email":"", "routes":{"group":{}, "single":{"app_icon":"images::app.png"}}}}

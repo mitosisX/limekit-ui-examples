@@ -1,0 +1,1 @@
+{"project":{"author":"Omega Msiska", "name":"Showcase", "lua_require":"", "description":"Example showing various widget", "routes":{"single":{"app_icon":"images::app.png"}, "group":{}}, "version":"1.0", "email":"", "url":"", "copyright":"Limekit by Take bytes"}}

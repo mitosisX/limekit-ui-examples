@@ -1,0 +1,1 @@
+{"project":{"lua_require":"", "name":"Sqlite Browser", "routes":{"group":{}, "single":{"app_icon":"images::app.png"}}, "copyright":"Limekit by Take bytes", "url":"", "email":"", "description":"Example showing sqlite browser", "author":"Omega Msiska", "version":"1.0"}}

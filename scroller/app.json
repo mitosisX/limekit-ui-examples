@@ -1,0 +1,1 @@
+{"project":{"version":"1.0", "author":"Omega Msiska", "copyright":"Limekit by Take bytes", "url":"", "description":"Example showing scroller", "lua_require":"", "name":"Scroller", "email":"", "routes":{"group":{}, "single":{"app_icon":"images::app.png"}}}}

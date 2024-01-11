@@ -1,0 +1,1 @@
+{"project":{"author":"Omega Msiska", "description":"Example showing UI for hash checker", "version":"1.0", "copyright":"Limekit by Take bytes", "email":"", "lua_require":"", "name":"Hash Checker", "routes":{"single":{"app_icon":"images::app.png", "icon":"images::icon.png"}, "group":{}}, "url":""}}
