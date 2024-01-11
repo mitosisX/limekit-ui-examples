@@ -36,12 +36,10 @@ function getTables()
 	end
 end
 
-window = Window{title = "DB Browser for SQLite - Limekit"}
-window:setIcon(route('app_icon'))
-window:setSize(1000, 600)
+window = Window{title = "DB Browser for SQLite - Limekit", icon=images('app.png'), size={1000, 600}}
 
 theme = app.Theme('darklight')
-theme:setTheme('dark')
+theme:setTheme('light')
 
 mainLay = VLayout()
 childMainLayout = HLayout()

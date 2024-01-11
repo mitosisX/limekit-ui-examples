@@ -4,7 +4,7 @@ window:setSize(280, 170)
 
 mainLay = VLayout()
 
-theme = Theme('misc')
+theme = app.Theme('misc')
 getThemes = theme:getThemes()
 
 combo = ComboBox(getThemes)

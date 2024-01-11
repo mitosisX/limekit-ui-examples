@@ -1,11 +1,9 @@
-window = Window("Docking - MirandaJS");
-window:setSize(500, 500)
-window:setIcon(images("calc.png"))
+window = Window{title="Docking - MirandaJS", icon=images('app.png'), size={500, 500}}
 
 dock = Dock()
-b = Button("Click me")
+b = Button("Move the dock to bottom")
 
 dock:setMagneticAreas({'top', 'bottom'})
 dock:setChild(b)
-window:addDock(dock,'left')
+window:addDock(dock,'right')
 window.show()

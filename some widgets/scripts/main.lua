@@ -33,7 +33,7 @@ layout:addChild(radioButton1)
 layout:addChild(radioButton2)
 layout:addChild(radioButton3)
 layout:addChild(checkBox)
-layout:addExpansion(1)
+layout:addStretch(1)
 topLeftGroupBox.setLayout(layout)
 
 -- ######################################
@@ -55,7 +55,7 @@ layout = VLayout()
 layout:addChild(defaultPushButton)
 layout:addChild(togglePushButton)
 layout:addChild(flatPushButton)
-layout:addExpansion(1)
+layout:addStretch(1)
 topRightGroupBox.setLayout(layout)
 
 -- ######################################
@@ -65,7 +65,7 @@ bottomLeftTabWidget = Tab()
 topLayout = HLayout()
 topLayout:addChild(styleLabel)
 topLayout:addChild(styleComboBox)
-topLayout:addExpansion(1)
+topLayout:addStretch(1)
 topLayout:addChild(useStylePaletteCheckBox)
 topLayout:addChild(disableWidgetsCheckBox)
 

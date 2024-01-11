@@ -1,8 +1,8 @@
-window = Window{title="System Try menu - Limekit", icon = route('app_icon'), size={350, 170}}
+window = Window{title="System Try menu - Limekit", icon = images('app.png'), size={350, 170}}
 
 mainLay = VLayout()
 
-trayMenu = SysTray(route("app_icon"))
+trayMenu = SysTray(images('app.png'))
 menu = Menu()
 menu:buildFromTemplate({
 	{label = 'File',
@@ -26,7 +26,7 @@ menu:buildFromTemplate({
 		click=function()
 			print('Edit')
 		end, 
-		icon=route('app_icon')
+		icon=images('app.png')
 	},
 	{label = 'View',
 		submenu={
@@ -46,6 +46,11 @@ menu:buildFromTemplate({
 		}
 	}
 })
+
+label=Label('Check your system tray and right click on it')
+label:setTextAlign('center')
+
+mainLay:addChild(label)
 
 combo = ComboBox({'Zebra','Elephant',"Cheeta",'Tiger'})
 mainLay:addChild(combo)

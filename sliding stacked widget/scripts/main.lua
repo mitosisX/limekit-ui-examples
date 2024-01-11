@@ -9,13 +9,13 @@ stack.autoStart()
 input = Button('Text')
 input:setMatProperty('danger')
 input:setOnClick(function()
-    text = app.textInput(window, 'Text Input', 'Provide name: ')
+    text = app.textInputDialog(window, 'Text Input', 'Provide name: ')
     print(text)
 end)
 
 double = Button('Double')
 double:setOnClick(function()
-    value = app.doubleInput(window, 'Double Input', 'Enter Amount: ', 0.0, 0.0, 100.0)
+    value = app.doubleInputDialog(window, 'Double Input', 'Enter Amount: ', 0.0, 0.0, 100.0)
     print('Value: ',value)
 end)
 
@@ -34,9 +34,18 @@ combo2:setOnItemSelected(function(obj, anim)
     stack:setAnimation(anim)
 end)
 
-prev = Button('pred')
-ne = Button('next')
+prev = Button('prev')
+prev:setOnClick(function()
+    stack:slidePrev()
+end
+)
 
+
+ne = Button('next')
+ne:setOnClick(function()
+    stack:slideNext()
+end
+)
 
 mainLay:addLayout(hLay)
 

@@ -8,12 +8,12 @@ sep1 = MenuItem('-')
 openfile = MenuItem("Open File")
 
 openfolder = MenuItem("Open Folder")
-openfolder:setImage(images("menu/openfolder.png"))
+openfolder:setIcon(images("menu/openfolder.png"))
 openrecent = MenuItem("Open Recent")
 sep2 = MenuItem('-')
 
 save = MenuItem("Save")
-save:setImage(images("save.png"))
+save:setIcon(images("save.png"))
 saveas = MenuItem("Save As")
 sep3 = MenuItem('-')
 
@@ -21,10 +21,10 @@ share = MenuItem("Share")
 sep4 = MenuItem('-')
 
 autosave = MenuItem("Auto Save")
-preferences = DropMenu("Preferences")
+preferences = Menu("Preferences")
 
 settings = MenuItem("Settings")
-themes = DropMenu("Themes")
+themes = Menu("Themes")
 now = MenuItem("Now MenuItems")
 light = MenuItem("Light")
 dark = MenuItem("Dark")
@@ -34,8 +34,8 @@ themes:addMenuItem(light)
 themes:addMenuItem(dark)
 
 preferences:addMenuItem(settings)
-preferences:addDropMenu(themes)
-filemenu:addDropMenu(preferences)
+preferences:addMenu(themes)
+filemenu:addMenu(preferences)
 
 sep5 = MenuItem('-')
 exit = MenuItem("Exit")

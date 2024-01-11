@@ -1,6 +1,4 @@
-window = Window{title='Simple - Limekit', size={280, 170}, icon=route('app_icon')}
--- window:setIcon(route('app_icon'))
-window:setSize(280, 170)
+window = Window{title='Simple - Limekit', size={280, 170}, icon=images('app.png')}
 
 mainLay = VLayout()
 
@@ -84,17 +82,7 @@ struct = {
 
 menu:buildFromTemplate(struct)
 
--- file = Menu('File')
---     newFile = DropMenu('New File')
---         sub = MenuItem("Hello there")
---         newFile:addMenuItem(sub)
---     file:addDropMenu(newFile)
-
--- menu:addMenuItem(file)
-b= Button('Find')
-b.setOnClick(function()
-    print(Button)
-end)
+b= Button('Doing nothing')
 mainLay:addChild(b)
 
 window:setMenubar(menu)

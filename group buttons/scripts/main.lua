@@ -34,7 +34,7 @@ confirm:setOnClick(function()
     if rating ~= "" then
         app.alert(window, 'Result', "Your rating: " .. rating)
     else
-        app.alert(window, 'Error!', 'You need to rate first')
+        app.criticalAlertDialog(window, 'Error!', 'You need to rate first')
     end
 end)
 mainLay:addChild(confirm)

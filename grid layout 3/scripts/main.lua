@@ -1,4 +1,4 @@
-window = Window{title="Grid Layout 2 - Limekit", icon=images('app.png')}
+window = Window{title="Grid Layout 2 - Limekit", icon=images('app.png'), size={200,100}}
 
 mainLayout = GridLayout()
 

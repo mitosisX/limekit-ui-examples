@@ -1,6 +1,4 @@
-window = Window("Listbox - Limekit")
-window:setIcon(route('app_icon'))
-window:setSize(400, 200)
+window = Window{title="Text Input - Limekit", icon=images('app.png'), size={400, 200}}
 
 mainLay = VLayout()
 

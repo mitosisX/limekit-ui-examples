@@ -1,4 +1,4 @@
-window = Window{title="Listbox - Limekit",size={400, 200}, icon=images('app.png')}
+window = Window{title="Scroller - Limekit",size={400, 200}, icon=images('app.png')}
 
 mainLay = VLayout()
 
@@ -15,7 +15,7 @@ end)
 
 lay = VLayout()
 
-for a=1, 10 do
+for a=1, 100 do
 	lay:addChild(Button('Button '..a))
 end
 

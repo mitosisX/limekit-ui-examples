@@ -1,7 +1,6 @@
 theme = app.Theme("darklight")
 theme:setTheme("light")
--- app.setStyle('Fusion')
--- Creating a window
+
 window = Window{title="Hash Checker - Limekit", icon=images('app.png'), size={408, 270}}
 
 -- Creating a main horizontal layout

@@ -1,22 +1,22 @@
 editmenu = Menu("Edit");
 
 undo = MenuItem("Undo");
-undo:setImage(images("undo.png"));
+undo:setIcon(images("undo.png"));
 redo = MenuItem("Redo");
-redo:setImage(images("redo.png"));
+redo:setIcon(images("redo.png"));
 sep1 = MenuItem('-')
 
 cut = MenuItem("Cut");
-cut:setImage(images("cut.png"));
+cut:setIcon(images("cut.png"));
 copy = MenuItem("Copy");
-copy:setImage(images("copy.png"));
-openfolder:setImage(images("menu/openfolder.png"));
+copy:setIcon(images("copy.png"));
+openfolder:setIcon(images("menu/openfolder.png"));
 paste = MenuItem("Paste");
-paste:setImage(images("paste.png"));
+paste:setIcon(images("paste.png"));
 sep2 = MenuItem('-');
 
 find = MenuItem("Find");
-find:setImage(images("find.png"));
+find:setIcon(images("find.png"));
 replace = MenuItem("Replace");
 sep3 = MenuItem('-');
 

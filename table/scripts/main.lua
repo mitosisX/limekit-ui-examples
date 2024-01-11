@@ -1,13 +1,11 @@
 -- Creating a window
-window = Window("Table - Limekit")
-window:setSize(558, 363)
-window:setIcon(route('app_icon'))
+window = Window{title="Table - Limekit", size={558, 363}, icon=images('app.png')}
 
 -- Creating a main horizontal layout
 mainLay = VLayout()
 
--- theme = Theme("material")
--- theme:setTheme("light_blue")
+theme = app.Theme("material")
+theme:setTheme("light_blue")
 
 -- Creating a table with dimensions 10x10
 table = Table(10, 10)
